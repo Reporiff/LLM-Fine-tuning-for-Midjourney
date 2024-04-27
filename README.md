@@ -13,9 +13,10 @@ The dataset is used to train the model in understanding and generating detailed 
 
 # Setup and Installation
 Install required libraries:
-bash
-Copy code
+'''bash
+
 pip install torch transformers datasets bitsandbytes loralib einops
+
 Authenticate with Hugging Face Hub (necessary for accessing model files):
 python
 Copy code
