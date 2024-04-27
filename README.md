@@ -12,10 +12,13 @@ Prompt: Consists of detailed prompts crafted to respond specifically to the user
 The dataset is used to train the model in understanding and generating detailed and contextually appropriate responses.
 
 # Setup and Installation
+
 Install required libraries:
-'''bash
+```
 
 pip install torch transformers datasets bitsandbytes loralib einops
+
+```
 
 Authenticate with Hugging Face Hub (necessary for accessing model files):
 python
